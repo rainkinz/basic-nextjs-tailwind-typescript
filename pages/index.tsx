@@ -1,5 +1,4 @@
-import Footer from '@/sections/Footer'
-import Header from '@/sections/Header'
+import Layout from '@/sections/Layout'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -13,9 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Header />
-        <h1>Next.JS with Tailwind Setup</h1>
-        <Footer />
+        <Layout>
+          <h1>Next.JS with Tailwind Setup</h1>
+        </Layout>
       </main>
     </div>
   )
