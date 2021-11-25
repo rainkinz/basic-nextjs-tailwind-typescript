@@ -1,5 +1,5 @@
 {
-  "name": "basic-nextjs-tailwind-typescript-setup",
+  "name": "basic-nextjs-tailwind-typescript",
   "private": true,
   "scripts": {
     "dev": "next dev -p 4000",
