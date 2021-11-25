@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 
 export default function Layout({ pageMeta, children }: { pageMeta?: any, children: ReactNode }) {
   const router = useRouter();
+
   const meta = {
     title: 'A basic Next.JS, TailwindCSS, Typescript template',
     description: `Start your Next.JS project, with a basic skeleton 
